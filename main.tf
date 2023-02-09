@@ -12,10 +12,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "REPLACE_ME"
+    organization = "keanan-test-org"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "ghactions-terraform-demo"
     }
   }
 }
